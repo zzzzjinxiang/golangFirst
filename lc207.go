@@ -71,17 +71,15 @@ func main() {
 func Max(a int, b int) int {
 	if (a > b) {
 		return a;
-	} else {
-		return b;
 	}
+	return b;
 }
 
 func Min(a int, b int) int {
 	if (a < b) {
 		return a;
-	} else {
-		return b;
 	}
+	return b;
 }
 
 func sum(arr []int) int {
