@@ -23,7 +23,6 @@ func prices1(prices []int) int {
 func max(a int, b int) int {
 	if (a > b) {
 		return a;
-	} else {
-		return b;
-	}
+	} 
+        return b;
 }
