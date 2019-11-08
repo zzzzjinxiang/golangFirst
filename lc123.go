@@ -21,8 +21,15 @@ func prices1(prices []int) int {
 }
 
 func max(a int, b int) int {
+<<<<<<< HEAD
 	if a > b {
 		return a
 	}
 	return b
+=======
+	if (a > b) {
+		return a;
+	}
+	return b;
+>>>>>>> 1d5210cf453d7a0326073ec263c8efbe567231a0
 }
